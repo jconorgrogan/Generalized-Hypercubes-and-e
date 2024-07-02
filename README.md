@@ -28,4 +28,4 @@ Noticed an interesting connection with generalized hypercubes (see https://en.wi
 
 
 #### Conjecture: 
-If we take any hypercube at any point and keep adding 1 to both the edge length p and the dimension r, then eventually the ratio of successive vertex counts will converge to e.
+If we take any hypercube and increase both the edge length p and the dimension n proportionally (i.e., 𝑛=p), then the ratio of successive vertex counts will eventually converge to e, with the speed of convergene depending on starting ratios
