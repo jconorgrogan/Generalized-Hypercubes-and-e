@@ -1,16 +1,14 @@
 # Generalized-Hypercubes-and-e
-Observation on Hypercubes and Euler's number e
 
 <img width="1175" alt="image" src="https://github.com/jconorgrogan/Generalized-Hypercubes-and-e/assets/130090573/cf815594-8b39-42f6-b065-e6fe4ee3183b">
 
-
-Noticed an interesting connection with generalized hypercubes (see https://en.wikipedia.org/wiki/Hypercube) 
+Noticed an interesting connection with generalized hypercubes (see [Wikipedia](https://en.wikipedia.org/wiki/Hypercube)).
 
 A generalized hypercube, or \( n \)-dimensional hypercube, extends the concept of a square (2D) and cube (3D) to higher dimensions. The number of vertices of a hypercube in \( n \) dimensions with edge length \( p \) is given by \( p^n \).
 
 #### Vertex Ratios
 
-Successive ratios are the ratio of the number of vertices between successive edge lengths for a given dimension. For example, for \( R^2 \) (2D hypercube), the ratio of vertices when the edge length changes from \( p = 2 \) to \( p = 3 \) is \( \frac{9}{4} \). This ratio is calculated for higher dimensions and various \( p \) values.
+For example, for \( R^2 \) (2D hypercube), the ratio of vertices when \( p \) changes from \( p = 2 \) to \( p = 3 \) is \( \frac{9}{4} \). This ratio is calculated for higher dimensions and various \( p \) values.
 
 #### Visualization
 
@@ -22,6 +20,5 @@ Successive ratios are the ratio of the number of vertices between successive edg
 
 - **Convergence to \( e \):** As the dimensions and \( p \) values increase, the successive ratios of vertex counts tend to converge towards \( e \).
 
-
-#### Conjecture: 
-If we take any hypercube and increase both the edge length p and the dimension n proportionally (i.e., 𝑛=p), then the ratio of successive vertex counts will eventually converge to e, with the speed of convergene depending on starting ratios
+#### Conjecture
+If we take any hypercube and increase both the edge length \( p \) and the dimension \( n \) proportionally (i.e., \( n = p \)), then the ratio of successive vertex counts will eventually converge to \( e \), with the speed of convergence depending on starting ratios.
