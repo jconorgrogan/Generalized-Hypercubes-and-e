@@ -6,15 +6,11 @@ Observation on Hypercubes and Euler's number e
 
 Noticed an interesting connection with generalized hypercubes (see https://en.wikipedia.org/wiki/Hypercube) 
 
-
-- **Definition:** A generalized hypercube, or \( n \)-dimensional hypercube, extends the concept of a square (2D) and cube (3D) to higher dimensions.
-- **Vertices:** The number of vertices of a hypercube in \( n \) dimensions with edge length \( p \) is given by \( p^n \).
+A generalized hypercube, or \( n \)-dimensional hypercube, extends the concept of a square (2D) and cube (3D) to higher dimensions. The number of vertices of a hypercube in \( n \) dimensions with edge length \( p \) is given by \( p^n \).
 
 #### Vertex Ratios
 
-- **Successive Ratios:** The ratio of the number of vertices between successive edge lengths for a given dimension.
-  - For example, for \( R^2 \) (2D hypercube), the ratio of vertices when the edge length changes from \( p = 2 \) to \( p = 3 \) is \( \frac{9}{4} \).
-  - This ratio is calculated for higher dimensions and various \( p \) values.
+Successive ratios are the ratio of the number of vertices between successive edge lengths for a given dimension. For example, for \( R^2 \) (2D hypercube), the ratio of vertices when the edge length changes from \( p = 2 \) to \( p = 3 \) is \( \frac{9}{4} \). This ratio is calculated for higher dimensions and various \( p \) values.
 
 #### Visualization
 
@@ -25,7 +21,6 @@ Noticed an interesting connection with generalized hypercubes (see https://en.wi
 #### Findings
 
 - **Convergence to \( e \):** As the dimensions and \( p \) values increase, the successive ratios of vertex counts tend to converge towards \( e \).
-  - The visualization highlights regions where the values are closest to \( e \), indicating that as we move to higher dimensions and larger \( p \) values, the ratios increasingly approximate \( e \).
 
 
 #### Conjecture: 
